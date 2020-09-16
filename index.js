@@ -138,10 +138,18 @@ child.play();
   TASK 4
 
   In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
+  1. Window/Global Object Binding:
+  When in the global scope, the value of "this" automatically goes be the window/console Object
+  2. Implicit Binding:
+   Only applies to object with methods and when the function is invoked, look to the left of the dot. to see what 'this' refers to 
+  3. New binding:
+  The new keyword constructs a new object and 'this' points to it 
+  4. Explicit Binding:
+  Call - will immediately invoke the function 
+  .call pass in arguments 1 by 1.
+  Apply - Will immediately invoke the function 
+  .apply we pass in arguments as an array
+  Bind - we pass in the arugments 1 by 1. It does not immediately invoke the function, instead it returns a brand new function that can be invoked later.
 */
 
 
